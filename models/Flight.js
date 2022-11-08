@@ -1,1 +1,1 @@
-[]
+[{"flightId":"t80jl2z","title":"Flight to Lagos","price":2000,"time":"4am","date":"05/11/2022"},{"flightId":"gd01lgf","title":"Flight to Lagos","price":2000,"time":"4am","date":"05/11/2022"},{"flightId":"qi09lrh","title":"Flight to Lagos","price":2000,"time":"3am","date":"05/11/2022"}]

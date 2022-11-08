@@ -100,14 +100,14 @@ app.delete('/api/v1/flight/delete/:id', (req, res) => {
 
  // get flight data from json file
  const getFlightData = () => {
-  const jsonData = fs.readFileSync('./models/flight.json');
+  const jsonData = fs.readFileSync('./models/Flight.js');
   return JSON.parse(jsonData);
 }
 
 //save flight data to json file
 const saveFlightData = (data) => {
   const stringifyData = JSON.stringify(data);
-  fs.writeFileSync('./models/flight.json', stringifyData);
+  fs.writeFileSync('./models/Flight.js', stringifyData);
 }
 
 
